@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/infinix/X6827
+LOCAL_PATH := device/infinix/GarudaX
 
 # A/B
 AB_OTA_UPDATER := true
