@@ -1,4 +1,4 @@
-# Android device tree for Infinix Hot 20S (X6827)
+# Android device tree for Infinix Hot 20S (GarudaX)
 
 Blocking checks
 - [x] Correct screen/recovery size
