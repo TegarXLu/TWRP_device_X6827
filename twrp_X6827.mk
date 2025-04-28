@@ -25,10 +25,10 @@ $(call inherit-product, device/infinix/X6815D/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X6815D
-PRODUCT_NAME := twrp_X6815D
+PRODUCT_DEVICE := X6827
+PRODUCT_NAME := twrp_X6827
 PRODUCT_BRAND := tecno
-PRODUCT_MODEL := Infinix Zero 5G
+PRODUCT_MODEL := Infinix Hot 20S
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
