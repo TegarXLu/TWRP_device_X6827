@@ -1,0 +1,15 @@
+
+cc_library_static {
+    name: "libinit_X6815D",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_X6815D.cpp"],
+    recovery_available: true,
+}
