@@ -5,21 +5,17 @@ export FOX_AB_DEVICE=1
 export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-export OF_MAINTAINER="TegarXLu"
+export OF_MAINTAINER="rama982"
 export FOX_VARIANT="A12+"
 export OF_FLASHLIGHT_ENABLE=0
 export OF_ENABLE_LPTOOLS=1
 export FOX_DELETE_MAGISK_ADDON=1
 export FOX_DELETE_AROMAFM=1
-export FOX_ENABLE_APP_MANAGER=1
+export FOX_ENABLE_APP_MANAGER=0
 export OF_SUPPORT_VBMETA_AVB2_PATCHING=1
 export FOX_USE_DATA_RECOVERY_FOR_SETTINGS=1
-export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
-export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 export OF_LOOP_DEVICE_ERRORS_TO_LOG=1
 export FOX_DRASTIC_SIZE_REDUCTION=1
-
-export OF_USE_LZ4_COMPRESSION=true
 
 export OF_SCREEN_H=2400
 export OF_STATUS_H=95
@@ -32,9 +28,6 @@ export USE_CCACHE=1
 export CCACHE_EXEC=/usr/bin/ccache
 export CCACHE_MAXSIZE="5G"
 export CCACHE_DIR="~/ccache"
-
-export OF_MAINTAINER_AVATAR="$(gettop)/device/infinix/X6827/maintainer_avatar.png"
-cp "${OF_MAINTAINER_AVATAR}" "$(gettop)/bootable/recovery/gui/theme/portrait_hdpi/images/Default/About/maintainer.png"
 
 if [ ! -d ${CCACHE_DIR} ];
 then
