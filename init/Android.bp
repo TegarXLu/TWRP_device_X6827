@@ -1,6 +1,6 @@
 
 cc_library_static {
-    name: "libinit_X6827",
+    name: "libinit_GarudaX",
     header_libs: [
         "libbase_headers",
     ],
@@ -10,6 +10,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_X6827.cpp"],
+    srcs: ["init_GarudaX.cpp"],
     recovery_available: true,
 }
