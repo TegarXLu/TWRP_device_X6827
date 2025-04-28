@@ -24,9 +24,9 @@ void vendor_load_properties()
     string prop_partitions[] = {"", "vendor.", "odm."};
     for (const string &prop : prop_partitions)
     {
-        property_override(string("ro.product.") + prop + string("brand"), "Infinix");
-        property_override(string("ro.product.") + prop + string("name"), "twrp_X6827");
-        property_override(string("ro.product.") + prop + string("device"), "X6827");
-        property_override(string("ro.product.") + prop + string("model"), "Infinix Hot 20S");
+        property_override(string("ro.product.") + prop + string("brand"), "TegarXLu");
+        property_override(string("ro.product.") + prop + string("name"), "pbrp_GarudaX");
+        property_override(string("ro.product.") + prop + string("device"), "GarudaX");
+        property_override(string("ro.product.") + prop + string("model"), "| Infinix Hot 20S");
     }
 }
