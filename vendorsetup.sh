@@ -26,4 +26,4 @@ fi
 
 # Register lunch combo(s) for GarudaX recovery
 # Replace <product_name> with your actual build product identifier
-add_lunch_combo <twrp_GarudaX>-userdebug
+add_lunch_combo twrp_GarudaX-userdebug
