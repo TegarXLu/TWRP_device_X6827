@@ -18,8 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
-# Inherit from X6815D device
-$(call inherit-product, device/infinix/X6815D/device.mk)
+# Inherit from X6827 device
+$(call inherit-product, device/infinix/X6827/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
