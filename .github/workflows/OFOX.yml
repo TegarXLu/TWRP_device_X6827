@@ -14,19 +14,19 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
         required: true
-        default: 'https://github.com/TegarXLu/device_tecno-KI7'
+        default: 'https://github.com/TegarXLu/TWRP_device_X6827'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch'
         required: true
-        default: 'X6815D'
+        default: '12.1'
       DEVICE_PATH:
         description: 'Specify your device path.'
         required: true
-        default: 'device/infinix/X6815D'
+        default: 'device/infinix/X6827'
       DEVICE_NAME:
         description: 'Specify your Device Codename.'
         required: true
-        default: 'X6815D'
+        default: 'X6827'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
