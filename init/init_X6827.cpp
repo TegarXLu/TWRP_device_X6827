@@ -25,8 +25,8 @@ void vendor_load_properties()
     for (const string &prop : prop_partitions)
     {
         property_override(string("ro.product.") + prop + string("brand"), "Infinix");
-        property_override(string("ro.product.") + prop + string("name"), "twrp_X6815D");
-        property_override(string("ro.product.") + prop + string("device"), "X6815D");
-        property_override(string("ro.product.") + prop + string("model"), "Infinix Zero 5G");
+        property_override(string("ro.product.") + prop + string("name"), "twrp_X6827");
+        property_override(string("ro.product.") + prop + string("device"), "X6827");
+        property_override(string("ro.product.") + prop + string("model"), "Infinix Hot 20S");
     }
 }
