@@ -6,7 +6,7 @@ export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 export OF_MAINTAINER="TegarXLu"
-export FOX_VARIANT="A13+"
+export FOX_VARIANT="A12+"
 export OF_FLASHLIGHT_ENABLE=0
 export OF_ENABLE_LPTOOLS=1
 export FOX_DELETE_MAGISK_ADDON=1
@@ -33,7 +33,7 @@ export CCACHE_EXEC=/usr/bin/ccache
 export CCACHE_MAXSIZE="5G"
 export CCACHE_DIR="~/ccache"
 
-export OF_MAINTAINER_AVATAR="$(gettop)/device/tecno/KL5/maintainer_avatar.png"
+export OF_MAINTAINER_AVATAR="$(gettop)/device/infinix/X6827/maintainer_avatar.png"
 cp "${OF_MAINTAINER_AVATAR}" "$(gettop)/bootable/recovery/gui/theme/portrait_hdpi/images/Default/About/maintainer.png"
 
 if [ ! -d ${CCACHE_DIR} ];
