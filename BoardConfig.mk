@@ -189,10 +189,14 @@ ALLOW_MISSING_DEPENDENCIES := true
 # Version
 TW_DEVICE_VERSION := TegarXLu | X6827 >a12<
 
-# Debug
-TWRP_INCLUDE_LOGCAT := true
-TARGET_USES_LOGD := true
-
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_X6827
 TARGET_RECOVERY_DEVICE_MODULES := libinit_X6827
+
+# Debug
+#TWRP_INCLUDE_LOGCAT := true
+#TARGET_USES_LOGD := true
+
+#PBRP_FLAGS
+PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 1
