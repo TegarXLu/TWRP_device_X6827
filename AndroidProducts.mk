@@ -9,4 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_GarudaX.mk
 
 COMMON_LUNCH_CHOICES := \
+    twrp_GarudaX-user \
+    twrp_GarudaX-userdebug \
     twrp_GarudaX-eng
