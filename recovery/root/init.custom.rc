@@ -2,3 +2,6 @@
  #Added Manual For Trustonic
     mkdir /mnt/vendor/persist
     mount ext4 /dev/block/by-name/persist /mnt/vendor/persist rw
+
+ #Fix Otg
+    echo 1 | tee /sys/devices/platform/odm/odm:tran_battery/OTG_CTL
