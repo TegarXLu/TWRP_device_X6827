@@ -170,7 +170,3 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 # Version
 TW_DEVICE_VERSION := TegarXLu | X6827 >a12<
-
-# Debug
-#TWRP_INCLUDE_LOGCAT := true
-#TARGET_USES_LOGD := true
